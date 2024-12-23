@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:unit_test/to_do/pages/main_screen.dart';
+import 'package:unit_test/api/screens/post_screen.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -16,6 +16,6 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(title: 'Unit Test', home: TodoScreen());
+    return MaterialApp(title: 'Unit Test', home: PostScreen());
   }
 }
